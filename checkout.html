@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="color: #bad6eb;" class="bgcheck">
+    <div class="checked">
+        <h1 id="textfill">Fill out your information</h1>
+        <p id="thanks"></p>
+        <p id="textfill">Answer it correctly</p>
+        <p id="textname">Name:</p>
+        <input type="text" id="name"><br>
+        
+        <p id="textadd">Address:</p><input type="text" name="fullAdd" id="add"><br>
+        <p id="textitem">Number of item(limit of 5 items):</p>
+        <select name="dropdown" id="item">
+            <option value="item1">1</option>
+            <option value="item2">2</option>
+            <option value="item3">3</option>
+            <option value="item4">4</option>
+            <option value="item5">5</option>
+        </select><br>
+        <p id="textmess">Message(Optional):</p>
+        <textarea cols="50" rows="10" name="mess" id="mensahe" placeholder="Your message..."></textarea>
+        <br>
+        
+        
+        <button onclick="firmbutt()" id="firmbutt">Check Out</button>
+        <a href="index.html" target="_self"><button id="firmbutttt">Back</button></a>
+    </div>
+    
+
+        
+    
+   
+    <script src="index.js"></script> 
+</body>
+</html>
